@@ -1,0 +1,26 @@
+@import 'fonts', 'colors', 'buttons', 'header', 'main', 'footer';
+
+
+*, *::before, *::after {
+    font-family: Rubik Regular, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    max-width: 1920px;
+    margin: auto;
+}
+
+html {
+    font-size: 25px;
+}
+
+body {
+    margin: 0 100px;
+    padding: 0;
+    text-align: center;
+
+}
+
+.mr-1 {
+    margin-right: 5px; 
+}
+

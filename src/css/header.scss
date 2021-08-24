@@ -1,0 +1,12 @@
+.header {
+    background-color: $white;
+    margin: 0 150px;
+
+    &__logo {
+        height: 84px;
+        background-image: url('../gfx/logo.png');
+        background-repeat: no-repeat;
+        background-position: 0 50%;
+
+    }
+}

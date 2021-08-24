@@ -1,0 +1,153 @@
+.main {
+    min-height: 466px;
+    background-color: $blue;
+    position: relative;
+    
+    &-dot {
+        height: 25px;
+        width: 25px;
+        background-color: $magento;
+        border-radius: 50%;
+        display: inline-block;
+        box-shadow: 0px 0px 5px 0px #ccc;
+        position: absolute;
+        
+    }
+    
+    &-container {
+        display: block;
+    }
+
+    &-title {
+        color: $white;
+        font-size: 40px;
+        line-height: 52px;
+        padding: 30px;
+
+    }
+    &-subtitle {
+        color: $white;
+        font-family: Rubik Light, sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0 50px;
+        margin: 0 50px;
+
+    }
+    &-list {
+        padding: 50px;
+        max-width: 1920px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    &__slider{
+        box-shadow: 0px 0px 5px 0px #ccc;
+        background-color: $white;
+        padding: 50px;
+        margin: 50px;
+        width: 500px;
+        height: 400px;
+
+
+        &-title {
+            font-size: 20px;
+            line-height: 24px;
+            padding: 20px;
+
+        }
+        &-row {
+            padding: 10px 0;
+        }
+        &-description {
+            font-size: 15px;
+            line-height: 24px;
+            color: $greyText;
+
+        }
+        &-logo {
+            margin: 40px;
+            padding: 5px;
+
+        }
+    }
+
+    &-edit {
+        margin: 10px;
+        padding: 10px;
+
+        &--remove-button {
+            font-size: 26px;
+            right: 0;
+
+        }
+
+        &__details-grid {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        &--flex {
+            display: flex;
+            align-items: flex-end;
+
+        }
+
+        &__input {
+            border: 1px solid black;
+            border-radius: 5px;
+            font-size: 16px;
+            padding: 5px 10px;
+            outline: none;
+            min-width: 350px;
+
+        }
+
+        &__label {
+            font-weight: bold;
+            padding: 25px;
+            text-align: left;
+        }
+
+
+    }
+
+    &__btn-container {
+        bottom: 0;
+        margin: 15px;
+
+    }
+
+}
+
+.CarouselItem > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1360px) {
+    .main {
+        display: block;
+
+        &-edit__details-grid {
+            display: block;
+
+        }
+
+    }
+
+}
+
+
+@media screen and (max-width: 1700px) {
+    .main__slider{
+        height: auto;
+        min-width: 300px;
+
+    }
+}

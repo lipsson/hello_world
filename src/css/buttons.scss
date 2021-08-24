@@ -1,0 +1,32 @@
+.btn {
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+
+}
+
+.btn--primary {
+    color: $greyText;
+    background-color: $lightWhite;
+    box-shadow: 0px 0px 5px 0px #808080;
+
+    &:hover {
+        background-color: $white;
+
+    }
+}
+
+.btn--delete {
+    color: $greyText;
+    background-color: $lightWhite;
+    border-color: hsl(340, 100%, 50%);;
+
+    &:hover {
+        background-color: hsl(340, 100%, 35%);
+        color: $white;
+
+    }
+}
